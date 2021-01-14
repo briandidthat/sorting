@@ -39,7 +39,6 @@ def quick_sort(array: List[int], start: int, end: int):
     :param array: unsorted array of integers
     :param start: initial lowest value of array, usually 0
     :param end: last element in array
-    :return: array of integers sorted in ascending order.
     """
     # if start is greater than or equal to the length of array, we have nothing to sort
     if start >= end:

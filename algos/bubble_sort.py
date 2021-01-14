@@ -6,7 +6,6 @@ def bubble_sort(array: List[int]):
     * time complexity: Worst case: O(n^2)
     * stability: Stable sorting algorithm since identical elements will not be swapped.
     :param array: Will accept an array of integers as input and sort them in place.
-    :return: array of integers sorted in ascending order.
     """
 
     # We want to stop passing through the list
