@@ -10,7 +10,7 @@ def bubble_sort(array: list):
     # as soon as we pass through without swapping any elements
     has_swapped = True
 
-    while(has_swapped):
+    while (has_swapped):
         has_swapped = False
         for i in range(len(array) - 1):
             if array[i] > array[i + 1]:
