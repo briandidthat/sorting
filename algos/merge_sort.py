@@ -43,9 +43,13 @@ def merge(array: List[int], left: int, right: int, middle: int):
 
 def merge_sort(array: List[int], left_index: int, right_index: int):
     """
-    :param array:
-    :param left_index:
-    :param right_index:
+    * algo type: Divide and conquer algorithm that splits the array into smaller arrays.
+    * in place: True. Quick sort does not create any copies of the array or its subarray.
+    * stability: Stable since it does not guarantee that identical elemets will not be swapped.
+    * time complexity: Best Case: O(n log n) Logarithmic time, Worst Case: O(nlogn) Logarithmic time
+    :param array: unsorted array of integers.
+    :param left_index: initial lowest value of array, usually 0
+    :param right_index: last element in array.
     """
 
     if left_index >= right_index:
