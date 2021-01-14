@@ -1,4 +1,7 @@
-def bubble_sort(array: list):
+from typing import List
+
+
+def bubble_sort(array: List[int]):
     """
     * time complexity: Worst case: O(n^2)
     * stability: Stable sorting algorithm since identical elements will not be swapped.

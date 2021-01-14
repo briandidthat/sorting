@@ -8,4 +8,4 @@ class TestBubble(unittest.TestCase):
         data = [4, 1, 6, 2, 7, 0]
         sorted_list = sorted(data)
         bubble_sort(data)
-        self.assertListEqual(data, sorted_list, "Array must be in ascending order.")
+        self.assertListEqual(data, sorted_list, f"Array must be in ascending order. {data}")
