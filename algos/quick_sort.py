@@ -32,9 +32,9 @@ def partition(array: List[int], start: int, end: int):
 
 def quick_sort(array: List[int], start: int, end: int):
     """
-    * algo type: Divide and conquer algorithm that splits the array into smaller arrays.
+    * paradigm: Divide and conquer algorithm that splits the array into smaller arrays.
     * in place: True. Quick sort does not create any copies of the array or its subarray.
-    * stability: Unstable since it does not guarantee that identical elemets will not be swapped.
+    * stability: Unstable since it does not guarantee that identical elements will not be swapped.
     * time complexity: Best Case: O(n log n), Worst Case: O(n^2) Quadratic time
     :param array: unsorted array of integers
     :param start: initial lowest value of array, usually 0.
