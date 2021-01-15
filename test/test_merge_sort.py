@@ -2,7 +2,7 @@ import unittest
 from algos.merge_sort import merge_sort
 
 
-class TestMerge(unittest.TestCase):
+class TestMergeSort(unittest.TestCase):
     def test_merge(self):
         # test that input array is sorted in ascending order.
         data = [4, 1, 6, 2, 7, 0]
