@@ -7,7 +7,7 @@ def insertion_sort(array: List[int]):
     * in place: True. Quick sort does not create any copies of the array or its subarray.
     * stability: Stable since identical elements will not be swapped.
     * time complexity: Best Case: O(n) Linear, Average: O(n^2) Quadratic
-    :param array:
+    :param array: unsorted array of integers.
     """
     # we start from 1 since the first element is trivially sorted
     for index in range(1, len(array)):
